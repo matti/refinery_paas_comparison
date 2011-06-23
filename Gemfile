@@ -7,6 +7,12 @@ source 'http://rubygems.org'
 
 gem 'sqlite3'
 
+gem 'engineyard'
+
+group :production do
+  gem 'mysql2'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
