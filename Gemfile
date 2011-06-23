@@ -8,6 +8,7 @@ source 'http://rubygems.org'
 gem 'sqlite3'
 
 gem 'engineyard'
+gem 'unicorn'
 
 group :production do
   gem 'mysql2'
